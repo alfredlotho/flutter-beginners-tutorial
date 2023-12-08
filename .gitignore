@@ -1,0 +1,13 @@
+.idea/.gitignore
+.idea/flutter-tutorial.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/libraries/Dart_SDK.xml
+myapp/android/build.gradle.bak
+myapp/android/gradle.properties.bak
+myapp/android/app/build.gradle.bak
+myapp/android/app/src/main/AndroidManifest.xml.bak
+myapp/android/app/src/main/java/uk/co/thenetninja/myapp/MainActivity.java.bak
+myapp/android/gradle/wrapper/gradle-wrapper.properties.bak
+myapp/ios/Flutter/flutter_export_environment.sh
