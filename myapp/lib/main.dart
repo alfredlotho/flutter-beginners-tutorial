@@ -12,17 +12,11 @@ class Home extends StatelessWidget {
         title: Text('my first app'),
         centerTitle: true,
       ),
-      body: Center(
-        child: Text(
-          'hello, ninjas!',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.green[100],
-            fontFamily: 'IndieFlower',
-          ),
-        ),
+      body: Container(
+        padding: EdgeInsets.all(10.0),
+        margin: EdgeInsets.fromLTRB(10, 20, 30, 40),
+        color: Colors.grey[400],
+        child: Text('hello')
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
